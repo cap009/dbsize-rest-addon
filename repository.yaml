@@ -1,3 +1,5 @@
 name: "DBSize Add-on Repo"
 url: "https://github.com/cap009/dbsize-rest-addon"
 maintainer: "cap009 <cap009@example.com>"
+addons:
+  - dbsize_server
