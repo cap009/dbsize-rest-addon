@@ -7,7 +7,7 @@ app = Flask(__name__)
 def get_db_size():
     try:
         conn = mysql.connector.connect(
-            host='172.30.32.1',
+            host='mariadb',    # <-- Correct host for Docker network
             user='homeassistant',
             password='Cap70952058',
             database='homeassistant',
