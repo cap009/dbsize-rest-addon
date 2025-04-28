@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY app.py .
 
-RUN pip install flask mysql-connector-python
+RUN pip install --no-cache-dir flask mysql-connector-python
 
-CMD ["python", "app.py"]
+CMD ["python3", "app.py"]
